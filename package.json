@@ -2,13 +2,13 @@
   "name": "smart-category-core",
   "version": "0.0.0",
   "description": "core package for smart-category",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kvnadesara/smart-category-core.git"
+    "url": "https://github.com/kvnadesara/smart-category-core.git"
   },
   "keywords": [
     "smart-category",
@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/kvnadesara/smart-category-core/issues"
   },
-  "homepage": "https://github.com/kvnadesara/smart-category-core#readme"
+  "homepage": "https://github.com/kvnadesara/smart-category-core#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "debug": "^2.2.0",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
