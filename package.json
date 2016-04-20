@@ -1,0 +1,25 @@
+{
+  "name": "smart-category-core",
+  "version": "0.0.0",
+  "description": "core package for smart-category",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvnadesara/smart-category-core.git"
+  },
+  "keywords": [
+    "smart-category",
+    "category",
+    "n-level",
+    "hierarchical"
+  ],
+  "author": "Kevin Adesara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kvnadesara/smart-category-core/issues"
+  },
+  "homepage": "https://github.com/kvnadesara/smart-category-core#readme"
+}
