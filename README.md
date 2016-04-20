@@ -1,1 +1,1 @@
-# smart-category
+# smart-category-core
