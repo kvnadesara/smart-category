@@ -3,7 +3,8 @@ var DB_CONFIG = {
   user: 'root',
   password: 'Digicorp@123',
   database: 'sc_smart_category',
-  connectionLimit: 10
+  connectionLimit: 10,
+  multipleStatements: true
 };
 
 process.env.DB_CONFIG = process.env.DB_CONFIG || DB_CONFIG;
