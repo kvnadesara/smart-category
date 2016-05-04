@@ -6,7 +6,7 @@ var DB_CONFIG = {
   connectionLimit: 10
 };
 
-process.env.DB_CONFIG = DB_CONFIG;
+process.env.DB_CONFIG = process.env.DB_CONFIG || DB_CONFIG;
 
 module.exports = {
   DB_CONFIG: DB_CONFIG
