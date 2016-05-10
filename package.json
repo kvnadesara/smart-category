@@ -4,7 +4,7 @@
   "description": "core package for smart-category",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha",
+    "test": "DEBUG=sc-core:* ./node_modules/mocha/bin/mocha",
     "start": "DEBUG=sc-core:* node app.js"
   },
   "repository": {

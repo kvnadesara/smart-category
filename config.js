@@ -1,6 +1,6 @@
 var DB_CONFIG = {
   host: '127.0.0.1',
-  user: 'root',
+  user: 'mittal',
   password: 'Digicorp@123',
   database: 'sc_smart_category',
   connectionLimit: 10,
