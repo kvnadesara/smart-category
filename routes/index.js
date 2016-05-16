@@ -24,7 +24,8 @@ var systemDefinedRoutesParent = '';
 var systemDefinedRoutes = [
   { path: '/api', modulePath: '/api', middleware: [], routes: [
     { path: '/smart-category',modulePath: '/smart-category',middleware: [],routes: [
-      { path: '/hello/:name?', modulePath: '/smart-category.js', type: 'GET', middleware: [], params: [], method: 'hello' }
+      { path: '/hello/:name?', modulePath: '/smart-category.js', type: 'GET', middleware: [], params: [], method: 'hello' },
+      { path: '/insert', modulePath: '/smart-category.js', type: 'POST', middleware: [], params: [], method: 'insert' }
     ]}
   ]}
 ]
