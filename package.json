@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha",
-    "start": "DEBUG=sc-core:*,api:* PORT=4000 node ./bin/www"
+    "start": "node ./bin/www",
+    "debug": "DEBUG=api:*,apps:* node ./bin/www"
   },
   "repository": {
     "type": "git",
